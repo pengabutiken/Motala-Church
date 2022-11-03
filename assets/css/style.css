@@ -65,13 +65,36 @@ nav ul li a:hover {
 .home-container {
     display: flex;
     margin-top: 50px;
-    font-size:50px ;
+    font-size:40px ;
     font-weight: bold;
     vertical-align: middle;
+    font-family:'Libre Baskerville', serif;
 }
 .home-container img {
-    width: 450px;
-    height: 400;
+    width: 350px;
+    height: 300;
     margin-right: 20px;
+    
+}
+hr {
+    border:2px solid white;
+}
+#about h1{
+    text-align:center;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-family:'Libre Baskerville', serif;
+    }
+#about {
+    text-align: center;
+    
+}
+#about h2 {
+    text-transform: uppercase;
+    font-family:'Libre Baskerville', serif;
+}
+#about p {
+    font-size: 20px;
+    font-weight: 500;
     
 }
