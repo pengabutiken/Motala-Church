@@ -137,13 +137,24 @@ iframe {
     text-align: center;
 
 }
-#ask-question {
-    display: flex;
-    align-items:flex-end;
-}
-fieldset{
-    width: 25%;
 
+    
+
+fieldset{
+    width: 35%;
+    background-color: white;
+    font-weight: bold;
+    border: 1px pink solid;
 }
+#submit-question {
+    background-color: rgba(186, 94, 46, 1);
+    color: white;
+ 
+}
+#submit-question:hover {
+    background-color: white;
+    color: black;
+}
+
 
 
