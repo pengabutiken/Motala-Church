@@ -170,6 +170,39 @@ fieldset{
     width: 300px;
     
 }
+@media (max-width:900px){
+    nav ul {
+        float: left;
+    }
+    
+}
+@media (max-width: 500px) {
+    nav ul {
+        float: left;
+    }
+    nav {
+        width: 100%;
+        height: 150px;
+    }
+    nav ul li a {
+        font-size: 15px;
+    }
+    .home-container {
+        display: inline-block;
+    }
+    .home-container img {
+        width: 100%;
+    }
+    .contact-visit > div {
+        height: 500px;
+        display: grid;
+    }
+    fieldset {
+        width: 100%;
+    }
+}
+    
+
 
 
 
