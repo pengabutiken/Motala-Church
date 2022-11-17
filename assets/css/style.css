@@ -174,6 +174,9 @@ fieldset{
     nav ul {
         float: left;
     }
+    fieldset {
+        width: 100%;
+    }
     
 }
 @media (max-width: 500px) {
@@ -194,7 +197,7 @@ fieldset{
         width: 100%;
     }
     .contact-visit > div {
-        height: 500px;
+        height: 700px;
         display: grid;
     }
     fieldset {
