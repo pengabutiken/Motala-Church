@@ -24,3 +24,5 @@ If the user wants to visit but don't really know how to yet, this section will t
 
 # Testing
 
+- W3C Validator showed no errors : https://validator.w3.org/nu/?doc=https%3A%2F%2Fpengabutiken.github.io%2FMotala-Church%2F
+
