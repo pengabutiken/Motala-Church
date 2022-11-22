@@ -23,7 +23,7 @@ If the user wants to visit but don't really know how to yet, this section will t
 - Add more boxes to the visit boxes
 
 # Testing 
-I have sent the link to my two of my mates to act as "playtester" for the website and they found no bugs on the website after trying it for about 10 minutes. They tried the features and tried on various browsers and on both PC and Iphone 12. This is understandable since the website is quite basic its just HTML code with some basic CSS.
+I have sent the link of my websit to my two of my mates to act as "playtester" for the website and they found no bugs on the website after trying it for about 10 minutes. They tried the features and tried on various browsers and on both PC and Iphone 12. This is understandable since the website is quite basic its just HTML code with some basic CSS. I'm sure the website would be riddled with bugs if the website had more features and had more coding languages incorperated.
 ## Bugs
 
 ### 1. Mobile responsiveness not working/ Media Query not working properly
@@ -37,6 +37,13 @@ The solution I found was on a post on stackoverflow.com where a user said that i
 - Jigsaw Validator showed no errors : http://jigsaw.w3.org/css-validator/validator?lang=sv&profile=css3svg&uri=https%3A%2F%2Fpengabutiken.github.io%2FMotala-Church%2F&usermedium=all&vextwarning=&warning=1
 
 # Deployment
+I used  GitHub which is a free developer website where you can host projects to deploy my website. GitHub have a feature called GitHub Pages where you can launch your repositry to a live website. 
+## How To Deploy
+On your chosen repositry page to the Settings tab in the GitHub repository, then click "Pages". Choose the "main" Branch from the drop-down menu for the source section. The page will automatically update and if everything is working accordingly there will be a link to your website. This link is sharable and can be used on all devices and browsers.
+
+## Link To My Website
+
+
 
 
 # Credits
@@ -46,8 +53,9 @@ The solution I found was on a post on stackoverflow.com where a user said that i
 - Before this project I didnt know much a about the Display CSS rule but after playing this game for about 40 minutes I really learned how to position diffrent things properly. The game is called Flexbox Froggy. (https://flexboxfroggy.com/)
 - I used icons in the navigation bar and footer  taken from Font Awesome. (https://fontawesome.com/)
 - I needed inspiration for my navigation bar so I watched one video about navbars and used some of his tips and tricks. The Youtube user is called "Web Master". (https://www.youtube.com/watch?v=ZotQNKyvZsw&ab_channel=WebMaster)
+- I wanted to make my code look as professional as possible so I tried following some code etiquette taken from this website. (https://learn.shayhowe.com/html-css/writing-your-best-code/)
 
 ## Media
 - Pictures in the Gallery and the image on the home page are pictures taken from the Swedish church, Motala Church's wikipedia page and the local newspaper called Motala Vadstena Tidning. (https://www.svenskakyrkan.se/motala/motala-kyrka     https://sv.wikipedia.org/wiki/Motala_kyrka      https://mvt.se/bli-prenumerant/artikel/r2p7413j/mvt-bf_3m3kr_e)
--
+
 
