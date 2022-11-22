@@ -36,6 +36,15 @@ The solution I found was on a post on stackoverflow.com where a user said that i
 - W3C Validator showed no errors : https://validator.w3.org/nu/?doc=https%3A%2F%2Fpengabutiken.github.io%2FMotala-Church%2F
 - Jigsaw Validator showed no errors : http://jigsaw.w3.org/css-validator/validator?lang=sv&profile=css3svg&uri=https%3A%2F%2Fpengabutiken.github.io%2FMotala-Church%2F&usermedium=all&vextwarning=&warning=1
 
+## Lighthouse
+Lighthouse results:
+![Lighthouse results](/assets/images/lighthouse1.png)
+
+
+![Lighthouse results2](/assets/images/lighthouse2.png)
+
+Where the website is lacking is the preformance aspect and as the pictures shows it's because of images. To prevent this in the future I could use a website like (https://tinypng.com/) to minimaize the size of image files. I can even use smaller images if I want to have a gallery feature on my website to not make the performance even worse.
+
 # Deployment
 I used  GitHub which is a free developer website where you can host projects to deploy my website. GitHub have a feature called GitHub Pages where you can launch your repositry to a live website. 
 ## How To Deploy
