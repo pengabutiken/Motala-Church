@@ -186,7 +186,7 @@ fieldset{
 }
 @media (max-width:900px){
     nav ul {
-        float: left;
+        float: unset;
     }
     fieldset {
         width: 100%;
