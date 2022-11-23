@@ -1,298 +1,262 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Source+Sans+Pro:wght@300&display=swap');
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Source Sans Pro', sans-serif;
-    background-color: beige;
-
+ body {
+     margin: 0;
+     padding: 0;
+     font-family: 'Source Sans Pro', sans-serif;
+     background-color: beige;
 }
-nav {
-  top: 0;
-  
-  left: 0;
-  width: 100%; 
-  height:80px ;
-  padding: 0;  
-  background: rgba(186, 94, 46, 0.5);
-  box-sizing: border-box;
-  border-bottom: 1px;
+ nav {
+     top: 0;
+     left: 0;
+     width: 100%;
+     height:80px ;
+     padding: 0;
+     background: rgba(186, 94, 46, 0.5);
+     box-sizing: border-box;
+     border-bottom: 1px;
 }
-nav .header-logo {
-   font-size: 30px; 
-   line-height: 75px;
-   float: left;
-   font-weight: bold;
-   font-family:'Libre Baskerville', serif;
-   color: white;
-   
-   
+ nav .header-logo {
+     font-size: 30px;
+     line-height: 75px;
+     float: left;
+     font-weight: bold;
+     font-family:'Libre Baskerville', serif;
+     color: white;
 }
-nav .header-logo a {
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-    padding-left: 10px;
+ nav .header-logo a {
+     text-decoration: none;
+     color: white;
+     text-transform: uppercase;
+     padding-left: 10px;
 }
-nav .header-logo a:hover {
-    color: black;
-    text-decoration: underline 1px;
-
+ nav .header-logo a:hover {
+     color: black;
+     text-decoration: underline 1px;
 }
-nav ul {
-    float: right;
-    margin: 0;
-    padding:0;
-    list-style: none;
-    display: flex;
-
+ nav ul {
+     float: right;
+     margin: 0;
+     padding:0;
+     list-style: none;
+     display: flex;
 }
-nav ul li a{
-    text-decoration: none;
-    padding: 12px 30px;
-    font-size: 17px;
-    line-height: 75px;
-    color: white;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-family: 'Libre Baskerville', serif;
-    
-    
-
+ nav ul li a{
+     text-decoration: none;
+     padding: 12px 30px;
+     font-size: 17px;
+     line-height: 75px;
+     color: white;
+     text-transform: uppercase;
+     font-weight: bold;
+     font-family: 'Libre Baskerville', serif;
 }
-nav ul li a:hover {
-    color: black;
-    text-decoration: underline 1px;
+ nav ul li a:hover {
+     color: black;
+     text-decoration: underline 1px;
 }
-
-.home-container {
-    display: flex;
-    margin-top: 50px;
-    font-size:1.5rem; 
-    font-weight: bold;
-    vertical-align: middle;
-    font-family:'Libre Baskerville', serif;
-    align-items: center;
+ .home-container {
+     display: flex;
+     margin-top: 50px;
+     font-size:1.5rem;
+     font-weight: bold;
+     vertical-align: middle;
+     font-family:'Libre Baskerville', serif;
+     align-items: center;
 }
-.home-container img {
-    width: 350px;
-    margin-right: 20px;
-    
+ .home-container img {
+     width: 350px;
+     margin-right: 20px;
 }
-hr {
-    border:2px solid white;
+ hr {
+     border:2px solid white;
 }
-#about h1{
-    text-align:center;
-    text-transform: uppercase;
-    font-size: 45px;
-    font-family:'Libre Baskerville', serif;
+ #about h1{
+     text-align:center;
+     text-transform: uppercase;
+     font-size: 45px;
+     font-family:'Libre Baskerville', serif;
+}
+ #about {
+     text-align: center;
+     padding: 20px;
+     background-color: rgba(186, 94, 46, 0.5);
+}
+ #about h2 {
+     text-transform: uppercase;
+     font-family:'Libre Baskerville', serif;
+}
+ #about p {
+     font-size: 20px;
+     font-weight: 500;
+}
+ #contact h1 {
+     text-align:center;
+     text-transform: uppercase;
+     font-size: 45px;
+     font-family:'Libre Baskerville', serif;
+}
+ .contact-visit {
+     display: flex;
+     justify-content: space-evenly;
+}
+ .contact-visit > div {
+     width: 300px;
+     height: 250px;
+     background-color: rgba(186, 94, 46, 1);
+     font-weight: 600;
+     text-align: center;
+     color: white;
+     float: left;
+     font-size: large;
+     border: 2px solid black;
+}
+ .contact-visit h2 {
+     font-family:'Libre Baskerville', serif;
+}
+ iframe {
+     width: 100%;
+     height: 500px;
+}
+ #ask-question h1 {
+     font-family:'Libre Baskerville', serif;
+     font-size: 50px;
+     text-align: center;
+}
+ fieldset{
+     text-align: center;
+     background-color: white;
+     font-weight: bold;
+     border: 1px black solid;
+}
+ #submit-question {
+     background-color: rgba(186, 94, 46, 1);
+     color: white;
+}
+ #submit-question:hover {
+     background-color: white;
+     color: black;
+}
+ .footer {
+     width: 100%;
+     height: 125px;
+     background-color:rgb(71 66 64 / 82%);
+     color: white;
+     text-align: center;
+     margin-top: 30px;
+}
+ .gallery-section1, .gallery-section2, .gallery-section3, .gallery-section4 {
+     display: flex;
+     justify-content: space-around;
+     padding: 10px;
+     margin: 10px;
+}
+ #gallery-container h3 {
+     text-align: center;
+}
+ #gallery-container img {
+     height: 250px;
+     width: 300px;
+}
+ @media (max-width:900px){
+     nav ul {
+         float: unset;
     }
-#about {
-    text-align: center;
-    padding: 20px;
-    background-color: rgba(186, 94, 46, 0.5);
-    
+     fieldset {
+         width: 100%;
+    }
+     .gallery-section1, .gallery-section2, .gallery-section3, .gallery-section4 {
+         display: unset;
+    }
 }
-#about h2 {
-    text-transform: uppercase;
-    font-family:'Libre Baskerville', serif;
+ @media (max-width:500px) {
+     nav ul {
+         float: left;
+         display: inline-block;
+    }
+     nav {
+         width: 100%;
+         height: 350px;
+    }
+     nav ul li a {
+         font-size: 15px;
+    }
+     .home-container {
+         display: inline-block;
+    }
+     .home-container img {
+         width: 100%;
+    }
+     .contact-visit > div {
+         height: 700px;
+         display: grid;
+    }
+     fieldset {
+         width: 100%;
+    }
+     .gallery-section1, .gallery-section2, .gallery-section3, .gallery-section4 {
+         display: unset;
+    }
 }
-#about p {
-    font-size: 20px;
-    font-weight: 500;
-    
+ @media (max-width: 780px) {
+     nav ul {
+         float: left;
+         display: inline-block;
+    }
+     nav {
+         width: 100%;
+         height: 350px;
+    }
+     nav ul li a {
+         font-size: 15px;
+    }
+     .home-container {
+         display: inline-block;
+    }
+     .home-container img {
+         width: 100%;
+    }
+     .contact-visit > div {
+         height: 700px;
+         display: grid;
+    }
+     fieldset {
+         width: 100%;
+    }
+     .gallery-section1, .gallery-section2, .gallery-section3, .gallery-section4 {
+         display: unset;
+    }
 }
-#contact h1 {
-    text-align:center;
-    text-transform: uppercase;
-    font-size: 45px;
-    font-family:'Libre Baskerville', serif;
-    
+ @media (max-width: 450px) {
+     nav .header-logo {
+         float: unset;
+         text-align: center;
+    }
+     nav ul {
+         float: left;
+         display: inline-block;
+    }
+     nav {
+         width: 100%;
+         height: 350px;
+    }
+     nav ul li a {
+         font-size: 15px;
+    }
+     .home-container {
+         display: inline-block;
+    }
+     .home-container img {
+         width: 100%;
+    }
+     .contact-visit {
+         display: flex;
+         justify-content: center;
+         align-content: center;
+         flex-wrap: wrap;
+         height: unset;
+    }
+     .gallery-section1, .gallery-section2, .gallery-section3, .gallery-section4 {
+         display: unset;
+    }
 }
-.contact-visit {
-    display: flex;
-    justify-content: space-evenly;
-
-}
-.contact-visit > div {
-    width: 300px;
-    height: 250px;
-    background-color: rgba(186, 94, 46, 1);
-    font-weight: 600;
-    text-align: center;
-    color: white;
-    float: left;
-    font-size: large;
-    border: 2px solid black;
-
-}
-.contact-visit h2 {
-    font-family:'Libre Baskerville', serif;
-    
-}
-iframe {
-    width: 100%;
-    height: 500px;
-    
-} 
-#ask-question h1 {
-    font-family:'Libre Baskerville', serif;
-    font-size: 50px;
-    text-align: center;
-    
-
-}
-
-    
-
-fieldset{
-    text-align: center;
-    background-color: white;
-    font-weight: bold;
-    border: 1px black solid;
-}
-#submit-question {
-    background-color: rgba(186, 94, 46, 1);
-    color: white;
  
-}
-#submit-question:hover {
-    background-color: white;
-    color: black;
-}
-.footer {
-    width: 100%;
-    height: 125px;
-    background-color:rgb(71 66 64 / 82%);
-    color: white;
-    text-align: center;
-    margin-top: 30px;
-
-}
-.gallery-section1, .gallery-section2, .gallery-section3, .gallery-section4 {
-    display: flex;
-    justify-content: space-around;
-    padding: 10px;
-    margin: 10px;
-}
-#gallery-container h3 {
-    text-align: center;
-}
-
-#gallery-container img {
-    height: 250px;
-    width: 300px;
-    
-}
-@media (max-width:900px){
-    nav ul {
-        float: unset;
-    }
-    fieldset {
-        width: 100%;
-    }
-    .gallery-section1, .gallery-section2, .gallery-section3, .gallery-section4 {
-        display: unset;
-    }
-    
-}
-@media (max-width:500px) {
-    nav ul {
-        float: left;
-        display: inline-block;
-    }
-    nav {
-        width: 100%;
-        height: 350px;
-    }
-    nav ul li a {
-        font-size: 15px;
-    }
-    .home-container {
-        display: inline-block;
-    }
-    .home-container img {
-        width: 100%;
-    }
-    .contact-visit > div {
-        height: 700px;
-        display: grid;
-    }
-    fieldset {
-        width: 100%;
-    }
-    .gallery-section1, .gallery-section2, .gallery-section3, .gallery-section4 {
-        display: unset;
-    }
-}
-@media (max-width: 780px) {
-    nav ul {
-        float: left;
-        display: inline-block;
-    }
-    nav {
-        width: 100%;
-        height: 350px;
-    }
-    nav ul li a {
-        font-size: 15px;
-    }
-    .home-container {
-        display: inline-block;
-    }
-    .home-container img {
-        width: 100%;
-    }
-    .contact-visit > div {
-        height: 700px;
-        display: grid;
-    }
-    fieldset {
-        width: 100%;
-    }
-    .gallery-section1, .gallery-section2, .gallery-section3, .gallery-section4 {
-        display: unset;
-    }
-}
-@media (max-width: 450px) {
-    nav .header-logo {
-        float: unset;
-        text-align: center;
-    }
-    nav ul {
-        float: left;
-        display: inline-block;
-    }
-    nav {
-        width: 100%;
-        height: 350px;
-    }
-    nav ul li a {
-        font-size: 15px;
-    }
-    .home-container {
-        display: inline-block;
-    }
-    .home-container img {
-        width: 100%;
-    }
-    .contact-visit {
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        flex-wrap: wrap;
-        height: unset;
-    }
-    .gallery-section1, .gallery-section2, .gallery-section3, .gallery-section4 {
-        display: unset;
-    }
-    
-    
-}
-    
-    
-
-
-
-
-
