@@ -9,7 +9,7 @@ Because I want tourists to visit the location, one thing I wanted to implement w
 This website has some potential monetary benefit in the future, one future goal could be to sell ads on the website for local hotels, restaurants and or other tourist attractions. If the website gets enough traffic I could potentially ask other businesses if they want to promote their businesses on my website because the tourists that visit the Motala Church website might be interested in other Motala businesses on their visit here.
 
 
-![Photo showing website on multiple devices](/assets/images/responsiveness-to-website.png)
+![Photo showing website on multiple devices](/assets/images/multi-device-mockup.png)
 
 # Sections
 
