@@ -67,9 +67,8 @@
      width: 350px;
      margin-right: 20px;
 }
- hr {
-     border:2px solid white;
-}
+
+
  #about h1{
      text-align:center;
      text-transform: uppercase;
@@ -79,7 +78,7 @@
  #about {
      text-align: center;
      padding: 20px;
-     background-color: rgba(186, 94, 46, 0.5);
+     background-color: rgba(186, 94, 46, 1);
 }
  #about h2 {
      text-transform: uppercase;
