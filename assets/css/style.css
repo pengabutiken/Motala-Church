@@ -1,11 +1,14 @@
+/*Importing the fonts to the website.*/
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Source+Sans+Pro:wght@300&display=swap');
+
  body {
      margin: 0;
      padding: 0;
      font-family: 'Source Sans Pro', sans-serif;
      background-color: beige;
 }
- nav {
+/* Styling of header*/
+ nav { 
      top: 0;
      left: 0;
      width: 100%;
@@ -15,24 +18,28 @@
      box-sizing: border-box;
      border-bottom: 1px;
 }
+/* Styling of the header logo in the left corner.*/
  nav .header-logo {
      font-size: 30px;
      line-height: 75px;
      float: left;
      font-weight: bold;
-     font-family:'Libre Baskerville', serif;
+     font-family:'Libre Baskerville', serif;  /* Different font for the logo text.*/
      color: white;
 }
+/* Styling to remove text decoration from the attribute tag in the header-*/
  nav .header-logo a {
      text-decoration: none;
      color: white;
      text-transform: uppercase;
      padding-left: 10px;
 }
+/* Hover effect on logo, have the same effect on the rest of the attribute tags in the header. */ 
  nav .header-logo a:hover {
      color: black;
      text-decoration: underline 1px;
 }
+/* Styling of the clickable buttons in the header, I wanted them to the right side of the header.*/
  nav ul {
      float: right;
      margin: 0;
@@ -54,51 +61,61 @@
      color: black;
      text-decoration: underline 1px;
 }
+/*  The home container holds a picture and some text this is mainly targeting the text of the class.*/
  .home-container {
      display: flex;
-     margin-top: 50px;
+     margin-top: 50px; 
      font-size:1.5rem;
      font-weight: bold;
      vertical-align: middle;
      font-family:'Libre Baskerville', serif;
      align-items: center;
 }
+/* Styling of home image. */
  .home-container img {
      width: 350px;
      margin-right: 20px;
 }
 
-
+/* Header of about section to show the user that they are entering a new section. */
  #about h1{
      text-align:center;
      text-transform: uppercase;
      font-size: 45px;
      font-family:'Libre Baskerville', serif;
 }
+/*The styling of the "about" section, wanted to make sure the user can read the block of the text
+hence the new background color and white text. */
  #about {
      text-align: center;
      padding: 20px;
      background-color: rgba(186, 94, 46, 1);
      color: white;
 }
+/* Styling of headings in the text section*/
  #about h2 {
      text-transform: uppercase;
      font-family:'Libre Baskerville', serif;
 }
+/* Styling the paragraph the holds the text in the about section, wanted to make sure the text is not too big and 
+changing the font weight to make text more readable.*/
  #about p {
      font-size: 20px;
      font-weight: 500;
 }
+/* Heading of contact section. */
  #contact h1 {
      text-align:center;
      text-transform: uppercase;
      font-size: 45px;
      font-family:'Libre Baskerville', serif;
 }
+/* Styling container holding the options for visiting. */
  .contact-visit {
      display: flex;
      justify-content: space-evenly;
 }
+/* Styling the to make boxes to hold the information.*/
  .contact-visit > div {
      width: 300px;
      height: 250px;
@@ -114,21 +131,25 @@
  .contact-visit h2 {
      font-family:'Libre Baskerville', serif;
 }
- iframe {
+/* Rezising of the map */ 
+ iframe { 
      width: 100%;
      height: 500px;
 }
+/* Header of question section*/
  #ask-question h1 {
      font-family:'Libre Baskerville', serif;
      font-size: 50px;
      text-align: center;
 }
+/* Fieldset holding the question section*/
  fieldset{
      text-align: center;
      background-color: white;
      font-weight: bold;
      border: 1px black solid;
 }
+/* Styiling submit button, also has a hover effect*/
  #submit-question {
      background-color: rgba(186, 94, 46, 1);
      color: white;
@@ -137,6 +158,7 @@
      background-color: white;
      color: black;
 }
+/* Footer style*/
  .footer {
      width: 100%;
      height: 125px;
@@ -144,20 +166,24 @@
      color: white;
      text-align: center;
      margin-top: 30px;
-}
+} 
+/*Style for the sections holding pictures in gallery. */ 
  .gallery-section1, .gallery-section2, .gallery-section3, .gallery-section4 {
      display: flex;
      justify-content: space-around;
      padding: 10px;
      margin: 10px;
 }
+/* Heading to differentiate the sections*/
  #gallery-container h3 {
      text-align: center;
 }
+/* Style of  images in the gallery*/
  #gallery-container img {
      height: 250px;
      width: 300px;
 }
+/* Media query to make the website responsive to tablets.*/
  @media (max-width:900px){
      nav ul {
          float: unset;
@@ -169,6 +195,7 @@
          display: unset;
     }
 }
+/* Media query to make website responsive for mobile users with a max width of 500px*/
  @media (max-width:500px) {
      nav ul {
          float: left;
@@ -198,6 +225,7 @@
          display: unset;
     }
 }
+/* Media query for users with a max width of 780px, so the website is responsive for them.*/
  @media (max-width: 780px) {
      nav ul {
          float: left;
@@ -227,6 +255,7 @@
          display: unset;
     }
 }
+/*Media query to change the website for people with smaller cellphones so they have a responsive experience. */
  @media (max-width: 450px) {
      nav .header-logo {
          float: unset;
