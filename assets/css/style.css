@@ -97,7 +97,7 @@ hence the new background color and white text. */
      text-transform: uppercase;
      font-family:'Libre Baskerville', serif;
 }
-/* Styling the paragraph the holds the text in the about section, wanted to make sure the text is not too big and 
+/* Styling the paragraph that holds the text in the about section, wanted to make sure the text is not too big and 
 changing the font weight to make text more readable.*/
  #about p {
      font-size: 20px;
