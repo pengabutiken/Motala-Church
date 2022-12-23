@@ -7,19 +7,21 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="../Motala-Church/assets/css/style.css">
+      <!-- Imported icons--> 
       <script src="https://kit.fontawesome.com/59475907ee.js" crossorigin="anonymous"></script>
       <title>Motala Church</title>
    </head>
    <body>
-      <nav >
+      <nav > <!-- Header of the page, here the user can click buttons to navigate the website. 
+            The button to the home page is a icon from Font Awesome -->
          <div class="header-logo"> <a href="#home">Motala Church   <i class="fa-solid fa-church"></i></a> </div>
-         <ul>
+         <ul> 
             <li><a href="../Motala-Church/gallery.html">Gallery</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#contact">contact</a></li>
          </ul>
-      </nav>
-      <section id="home">
+   </nav>
+      <section id="home"> <!--"Home page", where the user can see the church and find a breif introduction.-->
          <div class="home-container">
             <img src="../Motala-Church/assets/images/motala-kyrka.jpg" alt="Picture of Motala Church">
             <p>In the south of Sweden, in a small town called Motala, there is a  beautiful church located in the middle of the city center.
@@ -30,7 +32,7 @@
       <section id="about">
          <h1>About</h1>
          <div class="about-container">
-            <div class="about-history">
+            <div class="about-history"> <!--In the about section the user find information about the church.-->
                <h2>History</h2>
                <p>Before the present church was built, there was a smaller church on this site, the walls of which are partly part of the present one. 
                   Judging by the masonry, the old church can be dated to the last half of the 13th century.
@@ -47,7 +49,7 @@
                   the history of Motala.
                </p>
             </div>
-            <div class="about-today">
+            <div class="about-today"> <!-- Still in the about section the user can read about the church in present day.-->
                <h2>Today</h2>
                <p>Motala Church is the main church of the parish, which has an impact on the design of the worship service. High mass is usually celebrated every weekend at 11.00. The Mass usually begins with a procession with cross and gospel candles. The Gospel is read in the middle of the congregation. Choirs, singers or instrumentalists usually take part.
                   As Motala Church has two excellent organs and several choirs, there are opportunities for a rich musical life. We sometimes invite singers and musicians from other places to participate. Singing and music are integrated into the services.
@@ -59,10 +61,11 @@
             </div>
          </div>
       </section>
-      <section id="contact">
+      <section id="contact"> <!--The contact section is where the user can find out how to visit, 
+                                 where to find the church and ask questions. -->
          <h1>Contact</h1>
-         <div class="contact-visit">
-            <div class="contact-visit-car">
+         <div class="contact-visit"> <!-- In this section you get information about different ways to visit.-->
+            <div class="contact-visit-car"> <!--Car-->
                <h2>  Visit by Car</h2>
                <ol>
                   <li>Find directions via our map </li>
@@ -70,7 +73,7 @@
                   <li>Make sure to use the "Easy Park" app to not get a parking ticket</li>
                </ol>
             </div>
-            <div class="contact-visit-bus">
+            <div class="contact-visit-bus"> <!--Bus-->
                <h2>  Visit by Bus</h2>
                <ol>
                   <li> Use the app "Östergöta Trafiken" to purchase ticket</li>
@@ -78,7 +81,7 @@
                   <li>Get off the bus at the second stop called "Kanal Parken" </li>
                </ol>
             </div>
-            <div class="contact-visit-taxi">
+            <div class="contact-visit-taxi"> <!--Taxi-->
                <h2>  Visit with Taxi</h2>
                <ol>
                   <li> The local Taxi number in Motala is "0141-55555"</li>
@@ -87,27 +90,27 @@
                </ol>
             </div>
          </div>
-         <div class="contact-map">
+         <div class="contact-map"> <!-- Map of Motala Church.-->
             <h1> Motala Church Location</h1>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d520.6385902724024!2d15.037218905992686!3d58.535698797920574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465bdcd0f8add6f9%3A0xca84df814361ba95!2sPr%C3%A4stgatan%203%2C%20591%2030%20Motala!5e0!3m2!1ssv!2sse!4v1667845885236!5m2!1ssv!2sse" width="600" height="450" style="border: 1px solid black;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
          </div>
       </section>
-      <section id="ask-question">
+      <section id="ask-question"> <!-- Question section where the user can ask a a question.-->
          <h1>Ask us a question!</h1>
          <form action="https://formdump.codeinstitute.net/" method="post">
-            <fieldset>
+            <fieldset> <!-- Containing this fieldset tag there is 2 user inputs for the user to enter both email and question.-->
                <legend>Enter your email and question, and we will be in touch!</legend>
                <label for="email">Enter Email:</label> <br>
-               <input type="email" id="email" name="email" placeholder="Email" required>
+               <input type="email" id="email" name="email" placeholder="Email" required> <!--Here you can enter email -->
                <br>
                <label for="question">Enter Question:</label> <br>
-               <textarea name="question" id="question" cols="30" rows="5"  placeholder="Enter question here!"></textarea>
+               <textarea name="question" id="question" cols="30" rows="5"  placeholder="Enter question here!"></textarea> <!--Question-->
                <br>
-               <input type="submit" value="Send!" id="submit-question">
+               <input type="submit" value="Send!" id="submit-question"> <!-- Sumbit button for user to enter after filling up.-->
             </fieldset>
          </form>
       </section>
-      <footer class="footer">
+      <footer class="footer"> <!--Footer with information about authour of website.-->
          <h2> <em>Author:</em> <strong>Theo Björkqvist</strong>  
             <br> <i class="fa-solid fa-phone"></i> 070-Notmynumber
             <br> <i class="fa-solid fa-envelope"></i> notmymail@gmail.com 
