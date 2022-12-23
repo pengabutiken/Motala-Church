@@ -195,7 +195,20 @@ changing the font weight to make text more readable.*/
      .gallery-section1, .gallery-section2, .gallery-section3, .gallery-section4 {
          display: unset;
     }
+    iframe {
+        width: 100%;
+    }
+    fieldset {
+        width: 2rem;
+    }
+    html,body {
+        overflow-x: hidden;
+
+    }
+
+    
 }
+
 /* Media query to make website responsive for mobile users with a max width of 500px*/
  @media (max-width:500px) {
      nav ul {
@@ -225,7 +238,17 @@ changing the font weight to make text more readable.*/
      .gallery-section1, .gallery-section2, .gallery-section3, .gallery-section4 {
          display: unset;
     }
+    iframe {
+        width: 100%;
+    }
+    fieldset {
+        width: 2rem;
+    }
+    body,html {
+        overflow-x: hidden;
+    }
 }
+
 /* Media query for users with a max width of 780px, so the website is responsive for them.*/
  @media (max-width: 780px) {
      nav ul {
@@ -250,12 +273,22 @@ changing the font weight to make text more readable.*/
          display: grid;
     }
      fieldset {
-         width: 100%;
+         width: 1rem;
     }
      .gallery-section1, .gallery-section2, .gallery-section3, .gallery-section4 {
          display: unset;
     }
+    iframe {
+        width: 100%;
+    }
+    fieldset {
+        width: 2rem;
+    }
+    html,body {
+        overflow-x: hidden;
+    }
 }
+
 /*Media query to change the website for people with smaller cellphones so they have a responsive experience. */
  @media (max-width: 450px) {
      nav .header-logo {
@@ -288,6 +321,15 @@ changing the font weight to make text more readable.*/
     }
      .gallery-section1, .gallery-section2, .gallery-section3, .gallery-section4 {
          display: unset;
+    }
+    iframe {
+        width:100%;
+    }
+    fieldset {
+        width: 2rem;
+    }
+    html, body {
+        overflow-x: hidden;
     }
 }
  
