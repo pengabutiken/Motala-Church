@@ -102,9 +102,13 @@ The solution I found was on a post on stackoverflow.com where a user said that i
 
 ## Validators
 
-- W3C Validator showed no errors : https://validator.w3.org/nu/?doc=https%3A%2F%2Fpengabutiken.github.io%2FMotala-Church%2F
-index.html ![index.html validator result]()
-- Jigsaw Validator showed no errors : http://jigsaw.w3.org/css-validator/validator?lang=sv&profile=css3svg&uri=https%3A%2F%2Fpengabutiken.github.io%2FMotala-Church%2F&usermedium=all&vextwarning=&warning=1
+- W3C Validator showed no errors on the two html pages and the css page. 
+index.html ![index.html validator result](/assets/images/index-validator.png)
+(Show a warning but no errors.)
+
+gallery.html ![gallery.html validator result](/assets/images/gallery-validator.png)
+
+style.css ![style.css validator result](/assets/images/css-validator.png)
 
 ## Lighthouse 
 Lighthouse results:
