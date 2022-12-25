@@ -103,6 +103,7 @@ The solution I found was on a post on stackoverflow.com where a user said that i
 ## Validators
 
 - W3C Validator showed no errors : https://validator.w3.org/nu/?doc=https%3A%2F%2Fpengabutiken.github.io%2FMotala-Church%2F
+index.html ![index.html validator result]()
 - Jigsaw Validator showed no errors : http://jigsaw.w3.org/css-validator/validator?lang=sv&profile=css3svg&uri=https%3A%2F%2Fpengabutiken.github.io%2FMotala-Church%2F&usermedium=all&vextwarning=&warning=1
 
 ## Lighthouse 
